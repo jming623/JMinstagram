@@ -4,8 +4,8 @@ from rest_framework.views import APIView
 class Sub(APIView):
     def get(self, request):
         print('GET으로 호출')
-        return render(request, "Jinstagram/main.html")
+        return render(request, "instagram/main.html")
 
     def post(self, request):
         print('POST로 호출')
-        return render(request, "Jinstagram/main.html")
+        return render(request, "instagram/main.html")
