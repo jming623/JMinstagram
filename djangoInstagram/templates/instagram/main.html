@@ -36,11 +36,26 @@
     <div class="content-wrap">
         <div class="content-left">
             <div class="content-left-inner">
-                <div class="box">
-                    <img class="profile" src="https://img.khan.co.kr/news/2023/01/02/news-p.v1.20230102.1f95577a65fc42a79ae7f990b39e7c21_P1.png" alt="">
+                <div class="content-profile">
+                    <div class="box">
+                        <img class="profile" src="https://img.khan.co.kr/news/2023/01/02/news-p.v1.20230102.1f95577a65fc42a79ae7f990b39e7c21_P1.png" alt="">
+                    </div>
+                    <div class="user-name">
+                        jin.99
+                    </div>
                 </div>
-                <div>이미지</div>
-                <div>아이콘 집합</div>
+                <div><img src="https://img.freepik.com/free-photo/portrait-of-beautiful-young-asian-woman-relaxing-around-beach-with-white-clouds-on-blue-sky-in-travel-vacation_74190-13298.jpg?size=626&ext=jpg&ga=GA1.2.1446806160.1705326112&semt=sph" alt="" class="content-img"></div>
+                <div class="content-icon-wrap">
+                    <div class="">
+                        <span class="material-symbols-rounded unfill">favorite</span>
+                        <span class="material-symbols-rounded unfill">mode_comment</span>
+                        <span class="material-symbols-rounded unfill">send</span>
+                    </div>
+                    <div>
+                        <span class="material-symbols-rounded unfill">bookmark</span>
+                    </div>
+                </div>
+                <div> ~님 외 20명이 좋아합니다.</div>
                 <div>댓글들</div>
                 <div>댓글 입력창</div>
             </div>
@@ -98,9 +113,31 @@
         width: 600px;
         height: 1000px;
         margin-right: 256px;
-
     }
 
+    .content-profile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .user-name{
+        margin-left: 5px;
+    }
+
+    .content-img{
+        width: 100%;
+        height: auto;
+        padding: 15px 0 15px 0;
+        max-height: 500px;
+    }
+
+    .content-icon-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
     .content-right{
         width: 400px;
         height: 1000px;
